@@ -1,5 +1,11 @@
+
+	var nameX = prompt('jogador 1, qual é o seu nome? ')
+	var nameO = prompt ('jogador 2, qual é o seu nome?')
+
+
 function myfunc() {
 
+    
 	var b1, b2, b3, b4, b5, b6, b7, b8, b9;
 	b1 = document.getElementById("b1").value;
 	b2 = document.getElementById("b2").value;
@@ -14,14 +20,14 @@ function myfunc() {
 	if ((b1 == 'x' || b1 == 'X') && (b2 == 'x' ||
 		b2 == 'X') && (b3 == 'x' || b3 == 'X')) {
 		document.getElementById('print')
-			.innerHTML = "Jogador X venceu";
+			.innerHTML = nameX+ " venceu";
 		document.getElementById("b4").disabled = true;
 		document.getElementById("b5").disabled = true;
 		document.getElementById("b6").disabled = true;
 		document.getElementById("b7").disabled = true;
 		document.getElementById("b8").disabled = true;
 		document.getElementById("b9").disabled = true;
-		window.alert('Jogador X venceu');
+		window.alert(nameX +' venceu');
 	}
 	else if ((b1 == 'x' || b1 == 'X') && (b4 == 'x' ||
 		b4 == 'X') && (b7 == 'x' || b7 == 'X')) {
@@ -223,11 +229,11 @@ function myfunc() {
 		// Here, Printing Result
 		if (flag == 1) {
 			document.getElementById('print')
-				.innerHTML = "Vez do Jogador X";
+				.innerHTML = "Vez do "+ nameX;
 		}
 		else {
 			document.getElementById('print')
-				.innerHTML = "Vez do Jogador 0";
+				.innerHTML = "Vez do "+ nameO;
 		}
 	}
 }
