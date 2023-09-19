@@ -7,8 +7,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class JavaCacheService {
     @Cacheable(value = "teste", key = "#key")
-    public String getValor(String valor){
-     return "Retorno é: "+ valor;
+    public String getValor(String key){
+     return "Retorno é: "+ key;
     }
     @CacheEvict(value = "teste", allEntries = true)
     public void limparCache(){
