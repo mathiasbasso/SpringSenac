@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Teste thymeleaf</title>
+</head>
+<header>TESTE</header>
+<body>
+<h1>LISTA: </h1>
+<br>
+<ul>
+    <li th:each="pessoa : ${pessoas}">
+        <span th:text="${pessoa.nome}"> Nome da pessoa</span>
+    </li>
+</ul>
+</body>
+<footer>
+
+</footer>
+</html>
