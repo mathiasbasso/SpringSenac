@@ -1,0 +1,34 @@
+
+*Codigo modular*
+	melhor p achar o problema
+	melhor para evoluir e estudar a aplicação
+	modelo separado - deposito ----- saque
+
+Thymeleaf
+	mecanismo de template p desenvolvimento web com java
+	usado para criar páginas dinâmicas
+	internacionalização, fragmentos e layout
+	
+
+LIVRO- Desenvolvimento real de softwares
+
+KISS - Keep it stupid simple
+ACID - 
+SOLID
+
+gitignore - 
+	GIT
+	versionamento de codigo
+		branches, commit, push, pull, merge etc
+
+	 GITHUB - GUI - interface para reunir o versionamento.
+	bitbucket
+	gitlab
+
+
+maven - ferramenta de construção, desenvolvimento
+
+Contoller 
+	rest
+		get, put, post, delete
+
